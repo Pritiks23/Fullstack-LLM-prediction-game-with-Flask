@@ -1,5 +1,6 @@
 # 🎮 Word Play Game Web Application
-![Game Screenshot](/Users/pritikavipin/Documents/LLM game)
+![Alt text](/Users/pritikavipin/Documents/LLM game.png)
+
 Welcome to the **Word Play Game**, a fully interactive web application where players watch a sequence of words appear, make predictions at certain breakpoints, and earn scores based on their guesses. This project showcases a **dynamic, real-time frontend** connected seamlessly with a backend server to handle game logic, scoring, and leaderboard management.
 
 ---
