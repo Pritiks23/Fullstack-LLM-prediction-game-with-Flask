@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LLM Prediction Game</title>
+  <!-- TODO: Add a link element to connect the CSS stylesheet using url_for with 'static' and filename='style.css' -->
+</head>
+<body>
+  <div class="container">
+    <h1>🔮 Predict the LLM</h1>
+    <p id="description">Try to predict the next token that the LLM will produce!</p>
+    <div id="start-block">
+      <button id="start-button">▶️ Play</button>
+    </div>
+    <div id="info" class="hidden">
+      <p><strong>LLM:</strong> <span id="llm-model"></span></p>
+      <p><strong>System Prompt:</strong> <em id="system-prompt"></em></p>
+      <p><strong>User Question:</strong> <em id="user-question"></em></p>
+    </div>
+    <div id="response" class="response"></div>
+    
+    <table id="guess-table" class="hidden">
+      <thead>
+        <tr>
+          <th>Guessed Word</th>
+          <th>Correct Word</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    
+    <div id="guess-block" class="guess-block hidden">
+      <p>🤔 Your guess:</p>
+      <input type="text" id="guess-input" placeholder="Next word..." />
+      <button id="submit-guess">Submit</button>
+    </div>
+    
+    <div id="result" class="hidden">
+      <h2>🎉 Score: <span id="final-score"></span></h2>
+      <input type="text" id="name-input" placeholder="Your name" />
+      <button id="submit-score">Submit Score</button>
+    </div>
+
+    <div id="leaderboard" class="hidden">
+      <h2>🏆 Leaderboard</h2>
+      <ul id="score-list"></ul>
+    </div>
+  </div>
+  <!-- TODO: Add a script tag to load the JavaScript file using url_for with 'static' and filename='script.js' -->
+</body>
+</html>
