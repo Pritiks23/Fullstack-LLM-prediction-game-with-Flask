@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#start-block {
+    text-align: center;
+}
+
+h1, #description {
+    text-align: center;
+}
+
+.response {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    min-height: 100px;
+    background: gainsboro;
+    padding: 1em;
+}
+
+.response span {
+    margin-right: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.guess-block {
+    margin: 1rem 0;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 200px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    background: #4caf50;
+    color: white;
+}
+
+.hidden {
+    /* TODO: Add the display: none; property to make elements invisible when this class is applied */
+}
